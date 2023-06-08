@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:azure;
+    height: auto;
+    
+}
+
+.Navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    color: beige;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-weight:lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+     color: azure;
+     text-decoration: none;
+}
+
+
+.item:hover{
+    
+
+    border-radius: 2px;
+    text-transform:capitalize;
+    text-decoration: underline;
+
+}
+
+.Intro, .Home, .Skills, .Experience, .Resume{
+    height: auto;
+    margin: 0px 80px 0px 90px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.Home, .Contact{
+    
+    text-align: center;
+}
+
+.teffect{
+ color:darkblue; 
+ 
+}
+
+ li{
+    list-style-type: "☑ ";
+    padding: 10px;
+    color: black;
+    list-style-position:inside;
+}
+
+.Skills .progressbar{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items:self-start;
+}
+
+.Skills progress{
+    width: 800px;
+    height: 30px;
+
+}
+
+#map{
+    height:400px;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: beige;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
